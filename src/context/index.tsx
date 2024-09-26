@@ -29,6 +29,7 @@ export const modal = createAppKit({
   networks: [mainnet, arbitrum, avalanche, base, optimism, polygon],
   defaultNetwork: mainnet,
   metadata: metadata,
+  themeMode: 'light',
   features: {
     analytics: true, // Optional - defaults to your Cloud configuration
   }
